@@ -1,0 +1,106 @@
+.frame2 {
+  width: 1080px;
+  height: 2200px;
+  position: relative;
+  background: #489bf7;
+  max-height: 2200px;
+  overflow-y: hidden;
+}
+
+.rectangle7 {
+  width: 1080px;
+  height: 1354px;
+  left: 0;
+  top: 0;
+  position: absolute;
+  background: #d9d9d9;
+}
+
+.ai {
+  position: absolute;
+  width: 579px;
+  height: 307px;
+  left: 49px;
+  top: 1817px;
+}
+
+.ai-text {
+  width: 335px;
+  height: 300px;
+  left: 687px;
+  top: 1795px;
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  font-family: "Inter";
+  font-weight: 400;
+  line-height: 1.7;
+  word-wrap: break-word;
+  white-space: pre-line;
+}
+
+.rive-here {
+  position: absolute;
+  left: 40px;
+  top: 1075px;
+  /* z-index: 1; */
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 54%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  fill: #e86363;
+}
+
+.textarea {
+  width: 950px;
+  height: 58px;
+  padding: 8px;
+  box-sizing: border-box;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: center;
+  line-height: 42px;
+  transform-origin: center;
+  fill: #e86363;
+}
+
+.chatbot {
+  width: 950px;
+  height: 58px;
+  padding: 8px;
+  box-sizing: border-box;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: center;
+  line-height: 42px;
+  transform-origin: center;
+  /* z-index: 10; */
+}
+
+/* 새로운 스타일 */
+.box {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* 호버 시 스타일 */
+.box:hover {
+  background-color: #ff8138; /* 예: 오렌지색으로 변경 */
+  color: #000000; /* 예: 글자색을 흰색으로 변경 */
+}
+
+code {
+  background-color: #ffffff;
+  border-radius: 4px;
+  padding: 2px 4px;
+  font-family: "inter";
+  font-size: 100%;
+  color: #489bf7;
+  font-weight: bold;
+}
